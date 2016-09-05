@@ -1,0 +1,33 @@
+{
+    "name": "culture-pn-psu/yii2-core",
+    "description": "Yii2 for Core management system.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0",
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/culture-pn-psu/yii2-core.git",
+        "issues": "https://github.com/culture-pn-psu/yii2-core/issues"
+    },
+    "authors": [
+        {
+            "name": "Culture Service",
+            "email": "ahamad.jedu@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "andatech/yii2-core": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "culturePnPsu\\core\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
